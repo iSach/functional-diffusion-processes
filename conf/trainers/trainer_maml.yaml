@@ -56,6 +56,6 @@ trainer_logging:
   use_wandb: True # if True, wandb is used for logging
   wandb_init:
     name: ${trainers.training_config.save_dir}
-    project: "your_project"
-    entity: "your_entity"
+    project: "fdp"
+    entity: "slewin"
     save_code: False
